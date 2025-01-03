@@ -38,10 +38,10 @@ jobs:
         with:
           node-version: 23
           #cache: npm
-      - name: Install dependencies
-        run: npm install # or pnpm install / yarn install / bun install
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Install dependencies
+        run: npm install
       - name: Build with VitePress
         run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
