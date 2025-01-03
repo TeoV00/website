@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/website/',
-  title: "My WebSite",
-  description: "A VitePress Site",
+  title: "PPS-23-Ulisse",
+  description: "Ulisse an Train Infrastructure Similator",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
