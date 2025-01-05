@@ -41,13 +41,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: |
-          cd docs
-          npm install
+        run: npm install
+        working-directory: ./docs
       - name: Build with VitePress
-        run: |
-          cd docs
-          npm run docs:build
+        run: npm run docs:build
+        working-directory: ./docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
