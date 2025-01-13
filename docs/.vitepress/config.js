@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/website/',
+  base: '/report/',
   title: "PPS-23-Ulisse",
   description: "Ulisse an Train Infrastructure Similator",
   themeConfig: {
@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/dev-pps/pps-23-ulisse' }
     ]
   }
 })
