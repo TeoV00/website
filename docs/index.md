@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "My WebSite"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "PPS-23-Ulisse"
+  text: "A train infrastructure simulator"
+  tagline: PPS exam project
   actions:
     - theme: brand
-      text: My Page
-      link: /MyPage
+      text: Report
+      link: /0-intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Scala docs
+      link: /
 
 features:
   - title: Feature A
