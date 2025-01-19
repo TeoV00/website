@@ -13,7 +13,7 @@ export default defineConfig({
         ],
 
         sidebar: [
-            {text: 'Intro', link: '${folder}/0-intro'},
+            {text: 'Intro', link: folder + '/0-intro'},
             {text: 'Develop process', link: '/report/1-dev-process'},
             {text: 'Requirements', link: '/2-requirements'},
             {text: 'Architectural Design', link: '/3-arch-design'},
