@@ -1,8 +1,8 @@
 import {defineConfig} from 'vitepress'
-
+var folder = 'report/'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: '/website/report/',
+    base: '/website/',
     title: "PPS-23-Ulisse",
     description: "Ulisse an Train Infrastructure Similator",
     themeConfig: {
@@ -13,8 +13,8 @@ export default defineConfig({
         ],
 
         sidebar: [
-            {text: 'Intro', link: '/0-intro'},
-            {text: 'Develop process', link: '/1-dev-process'},
+            {text: 'Intro', link: '${folder}/0-intro'},
+            {text: 'Develop process', link: '/report/1-dev-process'},
             {text: 'Requirements', link: '/2-requirements'},
             {text: 'Architectural Design', link: '/3-arch-design'},
             {text: 'Detailed Design', link: '/4-details-design'},
