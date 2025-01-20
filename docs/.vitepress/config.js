@@ -1,5 +1,5 @@
 import {defineConfig} from 'vitepress'
-
+let reportPath = '/report'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: '/website',
@@ -13,21 +13,21 @@ export default defineConfig({
         ],
 
         sidebar: [
-            {text: 'Intro', link: '/0-intro'},
-            {text: 'Develop process', link: '/1-dev-process'},
-            {text: 'Requirements', link: '/2-requirements'},
-            {text: 'Architectural Design', link: '/3-arch-design'},
-            {text: 'Detailed Design', link: '/4-details-design'},
+            {text: 'Intro', link: `${reportPath}/0-intro`},
+            {text: 'Develop process', link: `${reportPath}/1-dev-process`},
+            {text: 'Requirements', link: `${reportPath}/2-requirements`},
+            {text: 'Architectural Design', link: `${reportPath}/3-arch-design`},
+            {text: 'Detailed Design', link: `${reportPath}/4-details-design`},
             {text: 'Implementation',
                 link: '/5-implementation',
                 items: [
-                    {text: 'Bravetti Federico', link: '/5-impl-bravetti'},
-                    {text: 'Montesinos Buizo Julio Manuel', link: '/5-impl-buizo'},
-                    {text: 'Violani Matteo', link: '/5-impl-violani'},
+                    {text: 'Bravetti Federico', link: `${reportPath}/5-impl-bravetti`},
+                    {text: 'Montesinos Buizo Julio Manuel', link: `${reportPath}/5-impl-buizo`},
+                    {text: 'Violani Matteo', link: `${reportPath}/5-impl-violani`},
                 ]
             },
-            {text: 'Testing', link: '/5-testing'},
-            {text: 'Retrospective', link: '/6-retrospective'},
+            {text: 'Testing', link: `${reportPath}/5-testing`},
+            {text: 'Retrospective', link: `${reportPath}/6-retrospective`},
 
         ],
 
